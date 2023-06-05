@@ -11,9 +11,7 @@
     "check-format": "prettier --check .",
     "test": "cross-env BABEL_ENV=test jest",
     "watch-tests": "cross-env BABEL_ENV=test jest --watch",
-    "prepare": "husky install",
-    "coverage": "cross-env BABEL_ENV=test jest --coverage",
-    "build:types": "tsc"
+    "coverage": "cross-env BABEL_ENV=test jest --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
@@ -57,6 +55,5 @@
     "react-dom": "^17.0.2",
     "single-spa": "^5.9.3",
     "single-spa-react": "^4.3.1"
-  },
-  "types": "dist/test-mfe-page-two.d.ts"
+  }
 }
